@@ -1,0 +1,199 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+header .nav__modific {
+  position: fixed;
+  width: 100%;
+}
+header .nav__modific .container__modific {
+  margin-top: -8px;
+  margin-bottom: -8px;
+  background: #232526;
+  /* fallback for old browsers */
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #414345, #232526);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+header .nav__modific .container__modific .nav__gonzalolosantos {
+  display: flex;
+  width: 1rem;
+}
+header .nav__modific .container__modific .nav__gonzalolosantos .img__izquierda__logo {
+  width: 5rem;
+}
+header .nav__modific .container__modific .nav__gonzalolosantos .img__izquierda__logo img {
+  width: 50%;
+  border: 1px solid red;
+}
+header .nav__modific .container__modific .nav__gonzalolosantos .img__derecha__logo {
+  width: 2rem;
+}
+header .nav__modific .container__modific .nav__gonzalolosantos .img__derecha__logo img {
+  width: 50%;
+}
+header .nav__modific .container__modific a {
+  color: white;
+  margin-left: 2rem;
+}
+header .nav__modific .container__modific .ini__contact__etc {
+  margin-left: auto;
+}
+header .nav__modific .container__modific .ini__contact__etc a {
+  margin: 0.5rem;
+  font-size: 1.3rem;
+  transition: all 0.3s ease-in-out;
+}
+header .nav__modific .container__modific .ini__contact__etc a:hover {
+  transform: scale(1.2);
+  color: #ffffff;
+  text-shadow: 0px 0px 5px #fcfcfc;
+}
+
+.main__container {
+  max-width: 99%;
+  height: 99vh;
+  border: 3px solid #48ff00;
+  padding-top: 3.5rem;
+}
+.main__container .main__section-1 {
+  height: 100vh;
+}
+.main__container .main__section-1 .main__container__superiorIzquierdo {
+  max-width: 15rem;
+  max-height: 20rem;
+  margin-left: 14.5rem;
+  margin-top: 5rem;
+  background-color: #000;
+}
+.main__container .main__section-1 .main__container__superiorIzquierdo img {
+  width: 95%;
+  margin-top: 0.7rem;
+}
+.main__container .main__section-1 .main__container__superiorDerecho {
+  border: 1px solid red;
+  margin-top: 5rem;
+  max-height: 20rem;
+  max-width: 60rem;
+  padding: 1rem;
+}
+.main__container .main__section-1 .main__container__superiorDerecho .hi {
+  font-size: 1.7rem;
+  margin: 0;
+}
+.main__container .main__section-1 .main__container__superiorDerecho a {
+  text-decoration: none;
+}
+.main__container .main__section-1 .main__container__superiorDerecho a h2 {
+  margin-left: auto;
+  margin-right: auto;
+  border: 1px solid red;
+  text-align: center;
+  max-width: 15rem;
+  padding: 1rem;
+  margin-top: 5rem;
+}
+.main__container .main__section-1 .main__container__superiorDerecho .h2Proyectos {
+  border: 2px solid black;
+  margin-left: 2rem;
+  margin-top: 5rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+.main__container .main__section-2 {
+  border: 3px solid #ff00ff;
+  height: 110vh;
+  padding: 1rem;
+}
+.main__container .main__section-2 .main__container__medioIquierdo {
+  border: 1px solid red;
+  max-width: 60rem;
+  padding: 1rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+.main__container .main__section-2 .main__container__medioIquierdo h2 {
+  text-align: center;
+}
+.main__container .main__section-2 .main__container__medioDerecho {
+  border: 1px solid red;
+  max-width: 30rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+.main__container .main__section-2 .main__container__medioDerecho h2 {
+  text-align: center;
+}
+.main__container .main__section-3 {
+  height: 100vh;
+  border: 3px solid #00ffea;
+}
+.main__container .main__section-3 div h2 {
+  border: 1px solid #00fff2;
+  text-align: center;
+}
+.main__container .main__section-3 .cajita1 h3 {
+  text-align: center;
+}
+.main__container .main__section-3 .cajita1 p {
+  border: 1px solid red;
+  text-align: center;
+}
+.main__container .main__section-3 .main__container__inferiorCajita1 {
+  border: 1px solid red;
+  max-width: 50rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+.main__container .main__section-3 .main__container__inferiorCajita1 img {
+  width: 100%;
+}
+.main__container .main__section-3 .cajita2 {
+  max-width: 15rem;
+}
+
+.footer__container {
+  height: 30vh;
+  width: 100%;
+  border: 1px solid #eeff00;
+  margin-top: 90rem;
+  background: #232526;
+  /* fallback for old browsers */
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #414345, #232526);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+.footer__container .footer__div {
+  width: 100%;
+  border: 1px solid #33ff00;
+  text-align: center;
+}
+.footer__container .footer__div h3 {
+  margin-top: 1rem;
+  color: white;
+}
+.footer__container .footer__div .redes {
+  border: 2px solid #000000;
+  max-width: 20rem;
+  display: flex;
+  margin-right: auto;
+  margin-left: auto;
+  background-color: #ffffff;
+  border-radius: 10px;
+}
+.footer__container .footer__div .redes div {
+  margin: 0.5rem;
+  width: 3rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+.footer__container .footer__div .redes div img {
+  width: 65%;
+}
+.footer__container .footer__div p {
+  color: white;
+  border: 1px solid red;
+  margin-top: 0.5rem;
+}/*# sourceMappingURL=styles.css.map */

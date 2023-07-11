@@ -1,0 +1,62 @@
+header {
+
+    .nav__modific {
+        position: fixed;
+        width: 100%;
+
+        .container__modific {
+            margin-top: -8px;
+            margin-bottom: -8px;
+            background: #232526;
+            /* fallback for old browsers */
+            background: -webkit-linear-gradient(to right, #414345, #232526);
+            /* Chrome 10-25, Safari 5.1-6 */
+            background: linear-gradient(to right, #414345, #232526);
+            /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+            .nav__gonzalolosantos {
+                display: flex;
+                width: 1rem;
+
+                .img__izquierda__logo {
+                    width: 5rem;
+
+                    img {
+                        width: 50%;
+                        border: 1px solid red;
+                    }
+                }
+
+                .img__derecha__logo {
+                    width: 2rem;
+
+                    img {
+                        width: 50%;
+                    }
+                }
+            }
+
+            a {
+                color: white;
+                margin-left: 2rem;
+            }
+
+            .ini__contact__etc {
+                margin-left: auto;
+
+                a {
+                    margin: 0.5rem;
+                    font-size: 1.3rem;
+                    transition: all 0.3s ease-in-out;
+
+                    &:hover {
+                        transform: scale(1.2);
+                        color: #ffffff;
+                        text-shadow: 0px 0px 5px #fcfcfc;
+                    }
+                }
+
+            }
+        }
+    }
+}

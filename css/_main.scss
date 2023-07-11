@@ -1,0 +1,129 @@
+.main__container {
+    max-width: 99%;
+    height: 99vh;
+    border: 3px solid #48ff00;
+    padding-top: 3.5rem;
+
+    .main__section-1 {
+        height: 100vh;
+
+        .main__container__superiorIzquierdo {
+            max-width: 15rem;
+            max-height: 20rem;
+            margin-left: 14.5rem;
+            margin-top: 5rem;
+            background-color: #000;
+
+            img {
+                width: 95%;
+                margin-top: 0.7rem;
+            }
+        }
+
+        .main__container__superiorDerecho {
+            border: 1px solid red;
+            margin-top: 5rem;
+            max-height: 20rem;
+            max-width: 60rem;
+            padding: 1rem;
+
+            .hi {
+                font-size: 1.7rem;
+                margin: 0;
+            }
+
+            a {
+                text-decoration: none;
+
+                h2 {
+                    margin-left: auto;
+                    margin-right: auto;
+                    border: 1px solid red;
+                    text-align: center;
+                    max-width: 15rem;
+                    padding: 1rem;
+                    margin-top: 5rem;
+                }
+            }
+
+            .h2Proyectos {
+                border: 2px solid black;
+                margin-left: 2rem;
+                margin-top: 5rem;
+                margin-left: auto;
+                margin-right: auto;
+
+            }
+
+        }
+    }
+
+    .main__section-2 {
+        border: 3px solid #ff00ff;
+        height: 110vh;
+        padding: 1rem;
+
+        .main__container__medioIquierdo {
+            border: 1px solid red;
+            max-width: 60rem;
+            padding: 1rem;
+            margin-left: auto;
+            margin-right: auto;
+
+            h2 {
+                text-align: center;
+            }
+        }
+
+        .main__container__medioDerecho {
+            border: 1px solid red;
+            max-width: 30rem;
+            margin-left: auto;
+            margin-right: auto;
+
+            h2 {
+                text-align: center;
+            }
+        }
+    }
+
+    .main__section-3 {
+        height: 100vh;
+        border: 3px solid #00ffea;
+
+        div {
+
+            h2 {
+                border: 1px solid #00fff2;
+                text-align: center;
+            }
+        }
+
+        .cajita1 {
+
+            h3 {
+                text-align: center;
+            }
+
+            p {
+                border: 1px solid red;
+                text-align: center;
+            }
+        }
+
+        .main__container__inferiorCajita1 {
+            border: 1px solid red;
+            max-width: 50rem;
+            margin-left: auto;
+            margin-right: auto;
+
+            img {
+                width: 100%;
+            }
+        }
+
+        .cajita2 {
+            max-width: 15rem;
+        }
+    }
+}

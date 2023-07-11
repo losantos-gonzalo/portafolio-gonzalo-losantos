@@ -1,0 +1,50 @@
+.footer__container {
+    height: 30vh;
+    width: 100%;
+    border: 1px solid #eeff00;
+    margin-top: 90rem;
+    background: #232526;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #414345, #232526);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #414345, #232526);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    .footer__div {
+        width: 100%;
+        border: 1px solid #33ff00;
+        text-align: center;
+
+        h3 {
+            margin-top: 1rem;
+            color: white;
+        }
+
+        .redes {
+            border: 2px solid #000000;
+            max-width: 20rem;
+            display: flex;
+            margin-right: auto;
+            margin-left: auto;
+            background-color: #ffffff;
+            border-radius: 10px;
+
+            div {
+                margin: 0.5rem;
+                width: 3rem;
+                margin-left: auto;
+                margin-right: auto;
+
+                img {
+                    width: 65%;
+                }
+            }
+        }
+
+        p {
+            color: white;
+            border: 1px solid red;
+            margin-top: 0.5rem;
+        }
+    }
+}
