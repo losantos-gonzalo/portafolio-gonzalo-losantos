@@ -16,29 +16,31 @@ header {
 
             .nav__gonzalolosantos {
                 display: flex;
-                width: 1rem;
 
                 .img__izquierda__logo {
-                    width: 5rem;
-
-                    img {
-                        width: 50%;
-                        border: 1px solid red;
-                    }
-                }
-
-                .img__derecha__logo {
                     width: 2rem;
 
                     img {
-                        width: 50%;
+                        width: 40%;
+                        border: 1px solid #238f0d;
+                    }
+                }
+
+                div {
+
+                    img {
+                        border: 4px double #000000;
+                        margin-left: 5rem;
+                        width: 20%;
+                        margin-top: 2px;
+                        border-radius: 4px;
                     }
                 }
             }
 
             a {
                 color: white;
-                margin-left: 2rem;
+                margin-top: 0.7rem;
             }
 
             .ini__contact__etc {

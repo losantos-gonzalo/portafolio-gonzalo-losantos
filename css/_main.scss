@@ -1,3 +1,6 @@
+/*
+Inicio
+*/
 .main__container {
     max-width: 99%;
     height: 99vh;
@@ -21,7 +24,8 @@
         }
 
         .main__container__superiorDerecho {
-            border: 1px solid red;
+            border: 5px double #000000;
+            border-radius: 4px;
             margin-top: 5rem;
             max-height: 20rem;
             max-width: 60rem;
@@ -47,17 +51,20 @@
             }
 
             .h2Proyectos {
-                border: 2px solid black;
+                border: 5px double #000000;
                 margin-left: 2rem;
                 margin-top: 5rem;
-                margin-left: auto;
-                margin-right: auto;
+                margin-top: 0;
+                margin-top: 3rem;
 
             }
 
         }
     }
 
+    /*
+Sobre mi
+*/
     .main__section-2 {
         border: 3px solid #ff00ff;
         height: 110vh;
@@ -87,6 +94,9 @@
         }
     }
 
+    /*
+Proyectos
+*/
     .main__section-3 {
         height: 100vh;
         border: 3px solid #00ffea;
