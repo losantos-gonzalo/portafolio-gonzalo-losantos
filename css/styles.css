@@ -17,8 +17,25 @@ header .nav__modific .container__modific {
   background: linear-gradient(to right, #414345, #232526);
   /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
+header .nav__modific .container__modific div {
+  display: flex;
+  margin-left: 2rem;
+}
+header .nav__modific .container__modific div img {
+  width: 26%;
+  margin-top: -0.5rem;
+}
+header .nav__modific .container__modific div p {
+  color: white;
+  font-size: 1.2rem;
+  padding-top: 1rem;
+}
 header .nav__modific .container__modific .nav__gonzalolosantos {
   display: flex;
+  margin-left: auto;
+}
+header .nav__modific .container__modific .nav__gonzalolosantos .name {
+  text-decoration: none;
 }
 header .nav__modific .container__modific .nav__gonzalolosantos .img__izquierda__logo {
   width: 2rem;
@@ -60,7 +77,7 @@ Inicio
   height: 99vh;
   border: 3px solid #48ff00;
   padding-top: 3.5rem;
-  /*
+  /*'
   Sobre mi
   */
   /*

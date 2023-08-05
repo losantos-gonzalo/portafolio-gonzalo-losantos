@@ -14,8 +14,29 @@ header {
             background: linear-gradient(to right, #414345, #232526);
             /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
+            div {
+                display: flex;
+                margin-left: 2rem;
+
+                img {
+                    width: 26%;
+                    margin-top: -0.5rem;
+                }
+
+                p {
+                    color: white;
+                    font-size: 1.2rem;
+                    padding-top: 1rem;
+                }
+            }
+
             .nav__gonzalolosantos {
                 display: flex;
+                margin-left: auto;
+
+                .name {
+                    text-decoration: none;
+                }
 
                 .img__izquierda__logo {
                     width: 2rem;
